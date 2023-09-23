@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.title {
+    color: #4AC5CA;
+    font-size: 36px;
+    padding-bottom: 30px;
+
+}
+
+.portraitsImagesRow1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.imageWrapper {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imageWrapper:hover {
+    transform: translateY(-10px);
+  }
+
+.astronaut {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    
+}
+
+.actionButton {
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: #5CE1E6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    max-width: 250px;
+}
+
+
+.actionButton:hover {
+    background-color: #4AC5CA;
+
+}
+
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    
+    }
+
+    .title {
+        color: #4AC5CA;
+        font-size: 33px;
+        text-align: center;
+        width: 90%;
+        padding-bottom: 30px;
+    
+    }
+
+    .portraitsImagesRow1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .astronaut {
+        height: 400px;
+        width: 370px;
+        border-radius: 15px;
+        
+    }
+
+    .actionButton {
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: #5CE1E6;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+}

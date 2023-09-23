@@ -1,0 +1,142 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.smallTitle {
+    font-size: 32px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #4AC5CA;
+
+
+}
+
+.bigTitle {
+    font-size: 70px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #2f3033;
+
+}
+
+.buttonArrowLeft {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    transform: translateY(-50%);
+   
+}
+
+.buttonArrowRight {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 180px;
+    left: 1810px;
+    transform: translateY(-50%);
+   
+}
+
+
+.astronaut {
+    max-width: 350px;
+    height: 350px;
+    border-radius: 15px;
+
+}
+
+.actionButton {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: #5CE1E6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    max-width: 250px;
+    /* Wider button for larger screens */
+}
+
+.actionButton:hover {
+    background-color: #4AC5CA;
+
+}
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .smallTitle {
+        font-size: 24px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color: #4AC5CA;
+    
+    
+    }
+    
+    .bigTitle {
+        font-size: 43px;
+        padding-top: 0px;
+        margin-top: 0px;
+        color: #2f3033;
+    
+    }
+
+    .buttonArrowLeft {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 180px;
+        left: 10px;
+        transform: translateY(-50%);
+       
+    }
+    
+    .buttonArrowRight {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 180px;
+        left: 353px;
+        transform: translateY(-50%);
+       
+    }
+    
+    .astronaut {
+        max-width: 280px;
+        height: 310px;
+        border-radius: 15px;
+    
+    }
+    
+    .actionButton {
+        margin-top: 50px;
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: #5CE1E6;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 19px;
+        cursor: pointer;
+        max-width: 250px;
+    }
+}

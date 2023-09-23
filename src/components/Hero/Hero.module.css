@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 114px;
+    background-color: #F5F6F5;
+    height: 77vh;
+    width: 99.1vw;
+
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+    right: 14px;
+}
+
+.title {
+    max-width: 80%;
+    font-size: 36px;
+    margin: 0;
+    color: #2f3033;
+
+}
+
+.subtitle {
+    max-width: 69%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2f3033;
+
+}
+
+.HeroImageMobile {
+    display: none;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #2f3033;
+
+}
+
+.priceOff {
+    font-size: 16px;
+    color: #ff6347;
+    /* Red color for the price off label */
+    margin-left: 6px;
+    /* Add some space between the price and label */
+    font-weight: bold;
+    /* Make the label bold for emphasis */
+}
+
+.actionButton {
+    display: inline-block;
+    padding: 15px 45px;
+    background-color: #5CE1E6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    max-width: 250px;
+    /* Wider button for larger screens */
+}
+
+.actionButton:hover {
+    background-color: #4AC5CA;
+
+}
+
+.HeroImage {
+    height: 570px;
+    border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+    .container {
+        flex-direction: column;
+        justify-content: start;
+        height: 90vh;
+        margin-top: 0px;
+        padding: 0px 0px;
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .title {
+        max-width: 100%;
+        font-size: 33px;
+        margin: 0;
+        color: #5CE1E6;
+        text-align: center;
+
+    }
+
+    .HeroImageMobile {
+        display: block;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+
+    .subtitle {
+        max-width: 100%;
+        font-size: 20px;
+        margin-top: 30px;
+        color: #2f3033;
+        text-align: center;
+    }
+
+    .price {
+        font-size: 20px;
+        margin-top: 0px;
+        color: #2f3033;
+        text-align: center;
+    
+    }
+
+    .actionButton {
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: #5CE1E6;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        max-width: 250px;
+        margin-left: 50px;
+    }
+
+
+    .HeroImage {
+        display: none;
+        height: 300px;
+    }
+}

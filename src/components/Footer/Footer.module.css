@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F6F5;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 20px;
+
+}
+
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 0; 
+    padding: 0;
+    left: 20px;
+   
+}
+
+.rights {
+    position: relative;
+    bottom: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.rightSide {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.contact {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.instagram {
+    margin-bottom: 0px
+}
+
+@media (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F6F5;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        margin-top: 20px;
+    
+    }
+    
+    
+    .leftSide {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    
+    }
+    
+    .logo {
+        height: 200px;
+        width: 200px;
+        position: relative;
+        margin: 0; 
+        padding: 0;
+        left: 30px;
+       
+    }
+    
+    .rights {
+        position: relative;
+        bottom: 60px;
+        left: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .rightSide {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 70px;
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+
+    }
+    
+    .contact {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 0px;
+        
+    }
+    
+    .instagram {
+        margin-bottom: 0px
+    }
+}
