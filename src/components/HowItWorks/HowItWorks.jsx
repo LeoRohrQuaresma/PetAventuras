@@ -11,7 +11,7 @@ const HowItWorks = () => {
     return (
         <>
             <div className={styles.container} id='HowItWorks' >
-                <h2 className={styles.title}>Como Nós Trabalhamos</h2>
+                <h2 className={styles.title}>Como funciona</h2>
                 <div className={styles.cardContainer}>
                     <div className={styles.card}>
                         <div className={styles.cardImage}>
@@ -34,7 +34,7 @@ const HowItWorks = () => {
                         <div className={styles.cardContent}>
                             <h2 className={styles.cardTitle}>Escolha do Estilo e Tamanho</h2>
                             <p className={styles.cardText}>
-                                Você terá a oportunidade de escolher o estilo e o tamanho do retrato que deseja. Isso pode incluir opções como preto e branco, colorido, tamanho da tela, entre outros.
+                                Você terá a oportunidade de escolher o estilo e o tamanho do retrato que deseja.
                             </p>
                         </div>
                     </div>
@@ -54,17 +54,7 @@ const HowItWorks = () => {
                 </div>
 
                 <div className={styles.cardContainer}>
-                <div className={styles.card}>
-                    <div className={styles.cardImage}>
-                        <img src={Step4} alt="Confirmar" className={styles.image4} />
-                    </div>
-                    <div className={styles.cardContent}>
-                        <h2 className={styles.cardTitle}>Confirmar</h2>
-                        <p className={styles.cardText}>
-                        Seu retrato personalizado está pronto! Agora é a sua vez de confirmar se ele está perfeito. Fique à vontade para revisar e, se necessário, fazer ajustes. Sua satisfação é o nosso objetivo!</p>
-                    </div>
-                </div>
-
+                
                 <div className={styles.card}>
                     <div className={styles.cardImage}>
                         <img src={Step5} alt="Entrega" className={styles.image5} />
@@ -72,7 +62,7 @@ const HowItWorks = () => {
                     <div className={styles.cardContent}>
                         <h2 className={styles.cardTitle}>Entrega</h2>
                         <p className={styles.cardText}>
-                        Sua felicidade está a caminho! Após a confirmação, nós preparamos o retrato com todo carinho e o enviamos para o endereço que você forneceu. Agora é só esperar ansiosamente pela chegada do seu adorável retrato de estimação.</p>
+                        Sua felicidade está a caminho!  nós preparamos o seu bicho de pelúcia personalizado com todo carinho e o enviamos para o endereço que você forneceu. Agora é só esperar ansiosamente pela chegada.</p>
                     </div>
                 </div>
                 </div>

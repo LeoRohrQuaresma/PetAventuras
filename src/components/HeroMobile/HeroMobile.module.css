@@ -1,44 +1,40 @@
-.backgroundImageContainer {
-    background-image: url('../../assets/herostuffed.webp');
+.containerImage {
+    background-image: url('../../assets/HeroMobile.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
 }
 
-
-.container {
+.containerContent {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 90vh;
-    width: 99.1vw;
-
-
-}
-
-.contentContainer {
-    margin-left: 700px;
 }
 
 .title {
     color: #535353;
-    font-size: 40px;
-    width: 650px;
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+    display: flex;
 }
 
 .actionButton {
     display: inline-block;
-    padding: 15px 40px;
+    padding: 15px 30px;
     background-color: #5CE1E6;
     color: #fff;
     border: none;
     border-radius: 10px;
-    font-size: 19px;
+    font-size: 18px;
     cursor: pointer;
     max-width: 250px;
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-top: 30px;
 }
 
 .actionButton:hover {

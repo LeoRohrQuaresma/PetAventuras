@@ -1,5 +1,3 @@
-
-
 .container {
     display: flex;
     flex-direction: column;
@@ -33,7 +31,7 @@
     top: 180px;
     left: 40px;
     transform: translateY(-50%);
-   
+
 }
 
 .buttonArrowRight {
@@ -43,7 +41,7 @@
     top: 180px;
     left: 1810px;
     transform: translateY(-50%);
-   
+
 }
 
 
@@ -57,7 +55,7 @@
 .actionButton {
     margin-top: 50px;
     display: inline-block;
-    padding: 15px 45px;
+    padding: 15px 40px;
     background-color: #5CE1E6;
     color: #fff;
     border: none;
@@ -65,7 +63,9 @@
     font-size: 19px;
     cursor: pointer;
     max-width: 250px;
-    /* Wider button for larger screens */
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .actionButton:hover {
@@ -80,24 +80,24 @@
         align-items: center;
         padding-top: 30px;
         padding-bottom: 50px;
-    
+
     }
-    
+
     .smallTitle {
         font-size: 24px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         color: #4AC5CA;
-    
-    
+
+
     }
-    
+
     .bigTitle {
         font-size: 43px;
         padding-top: 0px;
         margin-top: 0px;
         color: #2f3033;
-    
+
     }
 
     .buttonArrowLeft {
@@ -107,9 +107,9 @@
         top: 180px;
         left: 10px;
         transform: translateY(-50%);
-       
+
     }
-    
+
     .buttonArrowRight {
         background-color: transparent;
         border: none;
@@ -117,26 +117,29 @@
         top: 180px;
         left: 353px;
         transform: translateY(-50%);
-       
+
     }
-    
+
     .astronaut {
         max-width: 280px;
         height: 310px;
         border-radius: 15px;
-    
+
     }
-    
+
     .actionButton {
-        margin-top: 50px;
         display: inline-block;
-        padding: 15px 45px;
+        padding: 15px 30px;
         background-color: #5CE1E6;
         color: #fff;
         border: none;
         border-radius: 10px;
-        font-size: 19px;
+        font-size: 18px;
         cursor: pointer;
         max-width: 250px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
     }
 }

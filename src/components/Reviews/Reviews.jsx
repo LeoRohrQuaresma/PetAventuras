@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import styles from './Reviews.module.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Review1 from '../../assets/Review1.jpg';
-import Review2 from '../../assets/Review2.jpg';
-import Review3 from '../../assets/Review3.jpg';
-import Review4 from '../../assets/Review4.jpg';
-import Review5 from '../../assets/Review5.jpg';
+import Review1 from '../../assets/Review1.webp';
+import Review2 from '../../assets/Review2.webp';
+import Review3 from '../../assets/Review3.webp';
+import Review4 from '../../assets/Review4.webp';
+import Review5 from '../../assets/Review5.webp';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -86,7 +86,8 @@ const Reviews = () => {
         >
           <div>
             <div className={styles.carouselItem}>
-              {<img src={Review1} alt="Retrato Cachorro Policial" className={styles.astronaut} />}
+            {<img src={Review5} alt="Retrato Cachorro Policial" className={styles.astronaut} />}
+
             </div>
           </div>
 
@@ -110,11 +111,12 @@ const Reviews = () => {
 
           <div>
             <div className={styles.carouselItem}>
-              {<img src={Review5} alt="Retrato Cachorro Policial" className={styles.astronaut} />}
+              {<img src={Review1} alt="Retrato Cachorro Policial" className={styles.astronaut} />}
+
             </div>
           </div>
         </Carousel>
-        <button className={styles.actionButton}> <FontAwesomeIcon icon={faWhatsapp} size="1x" />  Fazer retrato</button>
+        <button className={styles.actionButton}> <FontAwesomeIcon icon={faWhatsapp} size="2x" />  FAÇA O SEU</button>
       </div>
     </>
   );
