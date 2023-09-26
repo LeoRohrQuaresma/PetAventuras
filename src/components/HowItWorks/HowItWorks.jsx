@@ -8,6 +8,7 @@ import Step5 from '../../assets/undraw_delivery_truck_vt6p.svg'
 
 
 const HowItWorks = () => {
+    console.log('teste')
     return (
         <>
             <div className={styles.container} id='HowItWorks' >
@@ -34,7 +35,7 @@ const HowItWorks = () => {
                         <div className={styles.cardContent}>
                             <h2 className={styles.cardTitle}>Escolha do Estilo e Tamanho</h2>
                             <p className={styles.cardText}>
-                                Você terá a oportunidade de escolher o estilo e o tamanho do retrato que deseja.
+                                Você terá a oportunidade de escolher o tamanho que deseja.
                             </p>
                         </div>
                     </div>
